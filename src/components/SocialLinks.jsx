@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import resume from "../assets/resume.pdf";
@@ -16,7 +16,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://www.linkedin.com/",
-      style: "rounded-tr-md bg-red",
+      style: "rounded-tr-md bg-primary",
     },
     {
       id: 2,
@@ -26,6 +26,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://github.com/harshil-kakdiya",
+      style: "rounded-tr-md bg-primary",
     },
     {
       id: 3,
@@ -35,16 +36,19 @@ const SocialLinks = () => {
         </>
       ),
       href: "mailto:harshilpatel0334@gmail.com",
+      style: "rounded-tr-md bg-primary",
     },
     {
       id: 4,
       child: (
         <>
           Resume <BsFillPersonLinesFill size={20} />
+
         </>
       ),
       href: resume,
       download: true,
+      style: "rounded-tr-md bg-primary",
     },
     {
       id: 5,
@@ -54,7 +58,17 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://twitter.com/aman_aura",
-      style: "rounded-br-md",
+      style: "rounded-br-md bg-primary",
+    },
+    {
+      id: 5,
+      child: (
+        <>
+          Instagram <FaInstagram size={20} />
+        </>
+      ),
+      href: "https://www.instagram.com/___harshil_/",
+      style: "rounded-br-md bg-primary",
     },
   ];
 
