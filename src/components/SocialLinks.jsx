@@ -16,7 +16,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://www.linkedin.com/",
-      style: "rounded-tr-md",
+      style: "rounded-tr-md bg-red",
     },
     {
       id: 2,
